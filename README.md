@@ -71,4 +71,14 @@ Model **LSTM menunjukkan performa yang jauh lebih baik** dibanding ARIMA.
 - **LSTM unggul dalam mempelajari pola non-linear dan fluktuatif** seperti kurs mata uang.
 - **ARIMA lebih cepat dan sederhana**, namun kurang akurat untuk pola kompleks.
 
+Dua metode time series forecasting yaitu LSTM (Long Short-Term Memory) dan ARIMA (Autoregressive Integrated Moving Average) telah digunakan untuk memprediksi nilai tukar USD/IDR.
+Hasil evaluasi menunjukkan bahwa:
+LSTM memiliki MAE sebesar ~24.96 dan MSE sebesar ~914.12.
+ARIMA memiliki MAE sebesar ~82.06 dan MSE sebesar ~10320.18.
+
+Model LSTM menunjukkan performa yang lebih baik secara signifikan dibandingkan ARIMA dalam memprediksi nilai tukar USD/IDR.
+MAE yang lebih rendah menunjukkan bahwa rata-rata kesalahan prediksi LSTM lebih kecil, sedangkan MSE yang jauh lebih rendah menandakan LSTM lebih tahan terhadap error besar atau outlier.
+
+Ini membuktikan bahwa LSTM lebih unggul dalam menangkap pola non-linear dan fluktuasi kompleks pada data keuangan seperti kurs mata uang.
+Di sisi lain, ARIMA lebih sederhana dan cepat dilatih, namun cenderung kurang akurat untuk dataset dengan pola yang tidak linear.
 > Dengan performa ini, LSTM adalah model yang lebih cocok untuk forecasting kurs USD/IDR dibanding ARIMA.
